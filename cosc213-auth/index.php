@@ -69,7 +69,7 @@ try {
     <section class="card">
         <div class="card-header">
             <div>
-                <div class="card-title">Users Table (Read-Only)</div>
+                <div class="card-title">Users Table</div>
                 <div class="card-sub">
                     Live data from the <code>users</code> table. For Week 1, rows can be added manually via SQL Client.
                 </div>
