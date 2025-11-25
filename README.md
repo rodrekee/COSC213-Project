@@ -1,3 +1,13 @@
-##🚀 COSC 213 – PHP Authentication Project
-This project implements a PHP-based authentication system using Docker, MySQL, HTML, and CSS.
-It is structured into weekly milestones as required by the course.
+# COSC 213 – User Authentication Project
+
+## Week 1 – Setup
+
+### Requirements
+- Docker / Docker Desktop
+- Sequel Ace (or any MySQL client)
+- Git
+
+### How to run
+
+```bash
+docker compose up -d
