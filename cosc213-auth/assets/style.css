@@ -243,3 +243,32 @@ code {
     padding: 6px 7px;
   }
 }
+
+/* -----------------------------------------------------------
+   Force input styling (text/email/password) – global
+   ----------------------------------------------------------- */
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    color: var(--text-main);
+    outline: none;
+    transition: all 0.25s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+    border-color: var(--accent-soft) !important;
+    background: rgba(56, 189, 248, 0.12) !important;
+    box-shadow: 0 0 8px rgba(56,189,248,0.4);
+}
