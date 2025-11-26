@@ -2,8 +2,8 @@
 COSC 213 – PHP Web Development Project  
 Group Members:  
 - Rodrigo Marini  
-- (Partner 2 Name)  
-- (Partner 3 Name)
+- Samir Dhakal 
+- Jenelle King
 
 ---
 
